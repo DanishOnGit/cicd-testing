@@ -22,5 +22,5 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: 'cicd-testing-actions-prod'
+          heroku_app_name: 'cicd-testing-github-actions'
           heroku_email: 'youcandoit1911@gmail.com'
